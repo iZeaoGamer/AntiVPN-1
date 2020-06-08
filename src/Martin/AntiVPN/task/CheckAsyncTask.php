@@ -22,7 +22,7 @@ class CheckAsyncTask extends AsyncTask
 
     public function onRun()
     {
-        $url = "http://check.getipintel.net/check.php?ip=" . $this->getIp() . "&format=json&contact=test@outlook.de";
+        $url = "http://check.getipintel.net/check.php?ip=" . $this->getIp() . "&format=json&contact=jameshayward14@icloud.com";
         $curl = curl_init();
         curl_setopt_array($curl, [
             CURLOPT_URL => $url,
